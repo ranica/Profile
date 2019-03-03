@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('./fonts/BYekan.eot') format('eot'),  /* IE6–8 */
+    url('./fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('./fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+    font-family: 'BTitrTGEBold';
+    src: url('./fonts/BTitrTGEBold.eot') format('eot'),  /* IE6–8 */
+    url('./fonts/BTitrTGEBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('./fonts/BTitrTGEBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Material-Icons.woff2') format('woff2');
+}
+
+.f-BYekan{
+    font-family: BYekan;
+}
+
+.f-BTitrTGEBold{
+    font-family: BTitrTGEBold;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "BYekan";
+  src: url(/fonts/BYekan.eot?7449863a7fc414e1f4d5b1634ceaf1a6) format("eot"), url(/fonts/BYekan.woff?d7b709263103c998c712e1395fc27936) format("woff"), url(/fonts/BYekan.ttf?0fddb75cc4bafe0b40c3333e3e51a2cb) format("truetype");
+  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: "BTitrTGEBold";
+  src: url(/fonts/BTitrTGEBold.eot?130a8af8a1aea73eb7d5d681e50ad4ca) format("eot"), url(/fonts/BTitrTGEBold.woff?e22c2100ee30dacca9cccdadb66a8c5a) format("woff"), url(/fonts/BTitrTGEBold.ttf?4773db9d665d74932cf0ac01de824d73) format("truetype");
+  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* fallback */
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Material-Icons.woff2?78a1f8748dc202eda5424c1603d28bfc) format("woff2");
+}
+
+.f-BYekan {
+  font-family: BYekan;
+}
+
+.f-BTitrTGEBold {
+  font-family: BTitrTGEBold;
+}
+

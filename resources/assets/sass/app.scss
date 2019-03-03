@@ -1,0 +1,53 @@
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body{
+    text-align: right !important;
+}
+.f-BYekan{
+    font-family: BYekan;
+}
+#sideNav .navbar-collapse .navbar-nav {
+    width: 75%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.subheading {
+    font-family: BYekan !important;
+}
+
+@media (max-width:767px){
+     body {
+        .container-fluid.p-0 {
+            margin-right: none !important;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+     body {
+        .container-fluid.p-0 {
+            margin-right: none !important;
+        }
+    }
+}
+@media (min-width:992px){
+    body {
+        .container-fluid.p-0 {
+            margin-right: 270px !important;
+        }
+    }
+}
+
+
