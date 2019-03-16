@@ -14,6 +14,20 @@
 }
 body{
     text-align: right !important;
+    .portfolio-modal .modal-dialog {
+        text-align: right !important;
+    }
+    .portfolio-modal .close-modal {
+        right: 125px !important;
+    }
+    .btn-white {
+        border-color: #2196f3;
+        background-color: #2196f3;
+        color: #fff;
+    }
+    // .btn{
+    //     border: none !important;
+    // }
 }
 .f-BYekan{
     font-family: BYekan;
@@ -49,5 +63,22 @@ h1, h2, h3, h4, h5, h6,
         }
     }
 }
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+    float: none !important;
+}
+
+
+
 
 

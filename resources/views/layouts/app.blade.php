@@ -1,10 +1,3 @@
-<!--
-author: Boostraptheme
-author URL: https://boostraptheme.com
-License: Creative Commons Attribution 4.0 Unported
-License URL: https://creativecommons.org/licenses/by/4.0/
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -348,7 +341,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 <!--====================================================
                     PORTFOLIO MODALS
 ======================================================-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" >
       <div class="modal-dialog" role="document">
           <div class="modal-content">
               <div class="close-modal" data-dismiss="modal">
@@ -370,16 +363,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                   <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/p-1.jpg") }}" alt="">
                                 </div>
                                 <div class="col-md-6">
-                                  <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                                  <p>این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است </p>
                                   <ul class="list-inline item-details">
-                                      <li>Client:
+                                      <li>گردآورنده::
                                           <strong>
                                             <a href="#">Techs Soft</a>
                                           </strong>
                                       </li>
-                                      <li>Date:
+                                      <li>تاریخ:
                                           <strong>
-                                            <a href="#">April 2018</a>
+                                            <a href="#">1397/12/22</a>
                                           </strong>
                                       </li>
                                       <li>Service:
@@ -389,7 +382,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                       </li>
                                   </ul>
                                   <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                      <i class="fa fa-times"></i> Close
+                                      <i class="fa fa-times"></i> بستن
                                   </button>
                               </div>
                             </div>
