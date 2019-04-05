@@ -12,7 +12,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse f-BYekan" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">پروفایل</a>
@@ -21,16 +21,16 @@
                     <a class="nav-link js-scroll-trigger" href="#experience">تجربیات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">مقالات</a>
+                    <a class="nav-link js-scroll-trigger" href="#portfolio"> کتب و مقالات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    <a class="nav-link js-scroll-trigger" href="#skills">مهارت ها</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                    <a class="nav-link js-scroll-trigger" href="#awards">افتخارات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">تماس با من</a>
                 </li>
             </ul>
         </div>

@@ -36637,7 +36637,7 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Data\WebSites\profile\resources\assets\js\bootstrap.js */"./resources/assets/js/bootstrap.js");
+module.exports = __webpack_require__(/*! /run/media/marjan/New Volume/2.Utility/Profile/resources/assets/js/bootstrap.js */"./resources/assets/js/bootstrap.js");
 
 
 /***/ })

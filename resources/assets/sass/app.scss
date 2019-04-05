@@ -7,40 +7,6 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-body{
-    text-align: right !important;
-    .portfolio-modal .modal-dialog {
-        text-align: right !important;
-    }
-    .portfolio-modal .close-modal {
-        right: 125px !important;
-    }
-    .btn-white {
-        border-color: #2196f3;
-        background-color: #2196f3;
-        color: #fff;
-    }
-    // .btn{
-    //     border: none !important;
-    // }
-}
-.f-BYekan{
-    font-family: BYekan;
-}
-#sideNav .navbar-collapse .navbar-nav {
-    width: 75%;
-}
-
-h1, h2, h3, h4, h5, h6,
-.subheading {
-    font-family: BYekan !important;
-}
-
 @media (max-width:767px){
      body {
         .container-fluid.p-0 {
@@ -55,6 +21,10 @@ h1, h2, h3, h4, h5, h6,
             margin-right: none !important;
         }
     }
+    #award-box {
+        width: 100%;
+    }
+
 }
 @media (min-width:992px){
     body {
@@ -62,6 +32,71 @@ h1, h2, h3, h4, h5, h6,
             margin-right: 270px !important;
         }
     }
+
+    #award-box {
+        padding-left: 22rem;
+        width: 100%;
+    }
+    #award-box:before {
+        left: 61.2% !important;
+    }
+}
+#awards {
+    direction: ltr;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.list-centered {
+    text-align:right;
+    list-style-position: inside;
+}
+.list-display li {
+    margin-bottom:.4rem;
+    font-size:0.9rem;
+}
+.list-checkmarks {
+    padding-left:1.5rem;
+}
+.list-checkmarks li {
+    list-style-type:none;
+    padding-left:1rem;
+}
+.list-checkmarks li:before {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    margin:0 10px 0 10px;
+    color: #17aa1c;
+}
+body{
+    text-align: right !important;
+    .portfolio-modal .modal-dialog {
+        text-align: right !important;
+    }
+    .portfolio-modal .close-modal {
+        right: 125px !important;
+    }
+    .btn-white {
+        border-color: #2196f3;
+        background-color: #2196f3;
+        color: #fff;
+    }
+    .p {
+    font-family: BYekan !important;
+    }
+}
+.f-BYekan{
+    font-family: BYekan;
+}
+#sideNav .navbar-collapse .navbar-nav {
+    width: 75%;
+}
+
+h1, h2, h3, h4, h5, h6,
+.subheading {
+    font-family: BYekan !important;
 }
 .col-md-1,
 .col-md-2,
@@ -76,6 +111,9 @@ h1, h2, h3, h4, h5, h6,
 .col-md-11,
 .col-md-12 {
     float: none !important;
+}
+.btn-green.filter-b{
+    border: 1px solid #007bff;
 }
 
 

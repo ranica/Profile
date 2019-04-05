@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="{{ asset("theme/img/favicon.ico") }}">
-    <title>Profile Bootstrap Theme</title>
+    <title>پروفایل دکتر حمید طاهری</title>
 
     <!-- Global stylesheets -->
     <link href="{{ asset("theme/css/bootstrap/bootstrap.min.css") }}" rel="stylesheet">
@@ -25,181 +25,20 @@
 <body id="page-top">
   @include('layouts.sidebar')
     <div class="container-fluid p-0">
+       <!--====================================================
+                        ABOUT
+      ======================================================-->
       @include('parts.about')
 
     <!--====================================================
                         EXPERIENCE
     ======================================================-->
-      <section class="resume-section p-3 p-lg-5 " id="experience">
-          <div class="row my-auto">
-              <div class="col-12">
-                <h2 class="  text-center">تجربیات</h2>
-                <div class="mb-5 heading-border"></div>
-              </div>
-              <div class="resume-item col-md-6 col-sm-12 " >
-                <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class=" resume-content mr-auto">
-                      <h4 class="mb-3">
-                        <i class="fa fa-globe mr-3 text-info"></i>
-                         Senior Web Developer
-                       </h4>
-                      <p>این تست است. این تست است. این تست است. این تست است. این تست است. این تست است. این تست است. این تست است.  این تست است.این تست است.این تست است.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">March 2019 - Present</span>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i>  Web Developer</h4>
-                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">December 2018 - March 2019</span>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> Junior Web Designer</h4>
-                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">July 2017 - December 2018</span>
-                  </div>
-                </div>
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3">
-                        <i class="fa fa-area-chart mr-3 text-primary"></i> Web Design Intern
-                      </h4>
-                      <p>
-                        Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">September 2018 - June 2019</span>
-                  </div>
-                </div>
-              </div>
-          </div>
-      </section>
+      @include('parts.experience')
 
     <!--====================================================
                         PORTFOLIO
     ======================================================-->
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-          <div class="row my-auto">
-              <div class="col-12">
-                <h2 class="  text-center">Portfolio</h2>
-                <div class="mb-5 heading-border"></div>
-              </div>
-              <div class="col-md-12">
-                <div class="port-head-cont">
-                  <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
-                  <button class="btn btn-general btn-green filter-b" data-filter="consulting">Web Design</button>
-                  <button class="btn btn-general btn-green filter-b" data-filter="finance">Mobile Apps</button>
-                  <button class="btn btn-general btn-green filter-b" data-filter="marketing">Graphics Design</button>
-                </div>
-              </div>
-          </div>
-          <div class="row my-auto">
-              <div class="col-sm-4 portfolio-item filter finance">
-                  <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-4.jpg")}}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src= "{{ asset("theme/img/portfolio/p-5.jpg")}}"  alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter consulting">
-                  <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-6.jpg") }}"  alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter consulting">
-                  <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-7.jpg") }}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter consulting">
-                  <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src=" {{ asset("theme/img/portfolio/p-8.jpg") }}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter finance">
-                  <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-9.jpg") }}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-1.jpg") }}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-2.jpg") }}" alt="">
-                  </a>
-              </div>
-              <div class="col-sm-4 portfolio-item filter finance">
-                  <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="{{ asset("theme/img/portfolio/p-3.jpg") }}" alt="">
-                  </a>
-              </div>
-          </div>
-      </section>
+      @include('parts.portfolio')
 
     <!--====================================================
                         SKILLS
@@ -243,89 +82,12 @@
     <!--====================================================
                            AWARDS
     ======================================================-->
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-          <div class="row my-auto">
-              <div class="col-12">
-                <h2 class="  text-center">Awards</h2>
-                <div class="mb-5 heading-border"></div>
-              </div>
-              <div class="main-award" id="award-box">
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Apr 2017 - Mar 2018</span>
-                          <h5 class="title">Google Analytics Certified Developer</h5>
-                          <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
-                      </div>
-                  </div>
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Apr 2018 - Mar 2019</span>
-                          <h5 class="title">Mobile Web Specialist - Google Certification</h5>
-                          <p class="description">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+    @include('parts.award')
 
     <!--====================================================
                           CONTACT
     ======================================================-->
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-          <div class="row my-auto" id="contact">
-            <div class="col-md-8">
-              <div class="contact-cont">
-                <h3>CONTACT Us</h3>
-                <div class="heading-border-light"></div>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
-              </div>
-              <div class="row con-form">
-                <div class="col-md-12">
-                  <input type="text" name="full-name" placeholder="Full Name" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="email" placeholder="Email Id" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="subject" placeholder="Subject" class="form-control">
-                </div>
-                <div class="col-md-12"><textarea name="" id=""></textarea></div>
-                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 mt-5">
-              <div class="contact-cont2">
-                <div class="contact-add contact-box-desc">
-                  <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
-                  <p>25, Dist town Street, Logn <br>
-                  California, US <br></p>
-                </div>
-                <div class="contact-phone contact-side-desc contact-box-desc">
-                  <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
-                  <p>800 123 3456 <br>900 123 3457</p>
-                </div>
-                <div class="contact-mail contact-side-desc contact-box-desc">
-                  <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
-                <address class="address-details-f">
-                  Fax: 800 123 3456 <br>
-                  Email: <a href="mailto:info@themsbit.com" class="">info@themsbit.com</a>
-                </address>
-                <ul class="list-inline social-icon-f top-data">
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-facebook" style="color: #4267b2; border-color:#4267b2;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-twitter" style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus" style="color: #e24343; border-color:#e24343;"></i></a></li>
-                </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
+    @include('parts.contact')
 
       <!-- <section class=" d-flex flex-column" id="maps">
         <div id="map">
@@ -341,7 +103,7 @@
 <!--====================================================
                     PORTFOLIO MODALS
 ======================================================-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
       <div class="modal-dialog" role="document">
           <div class="modal-content">
               <div class="close-modal" data-dismiss="modal">
@@ -354,16 +116,26 @@
                           <div class="modal-body">
                               <div class="title-bar">
                                 <div class="col-md-12">
-                                  <h2 class="text-center">Our Project</h2>
+                                  <h2 class="text-center">چشمه آفتاب</h2>
                                   <div class="heading-border"></div>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-md-6">
-                                  <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/p-1.jpg") }}" alt="">
+                                  <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/book-cheshmeh.jpg") }}" alt="">
                                 </div>
                                 <div class="col-md-6">
-                                  <p>این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است این تست است. این تست است </p>
+                                  <p>
+                                    مؤلفان: حمید طاهری، وحید مبارک
+                                    ناشر: سایه گستر
+                                      زبان: فارسی
+                                        رده‌بندی دیویی: 8fa0.8
+                                        سال چاپ: 1389
+                                        نوبت چاپ: 3
+                                        تیراژ: 1500 نسخه
+                                        تعداد صفحات: 416
+                                        قطع و نوع جلد: وزیری (شومیز)
+                                        کد کتاب در گیسوم:</p>
                                   <ul class="list-inline item-details">
                                       <li>گردآورنده::
                                           <strong>
@@ -383,6 +155,9 @@
                                   </ul>
                                   <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
                                       <i class="fa fa-times"></i> بستن
+                                  </button>
+                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> دانلود
                                   </button>
                               </div>
                             </div>
@@ -405,13 +180,13 @@
                         <div class="modal-body">
                             <div class="title-bar">
                               <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
+                                <h2 class="text-center">گلبانگ سربلندی</h2>
                                 <div class="heading-border"></div>
                               </div>
                             </div>
                             <div class="row">
                               <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/p-2.jpg") }}" alt="">
+                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/book-golbang.jpg") }}" alt="">
                               </div>
                               <div class="col-md-6">
                                 <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -433,7 +208,109 @@
                                     </li>
                                 </ul>
                                 <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
+                                    <i class="fa fa-times"></i> بستن
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">تاملی در معنی ابیات دشوار سنایی</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/arttical-sanaei.jpg") }}" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                          <a href="#">Techs Soft</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>
+                                          <a href="#">April 2018</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>
+                                          <a href="#">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> بستن
+                                </button>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                              <div class="col-md-12">
+                                <h2 class="text-center">تاملی در معنی ابیات دشوار سنایی</h2>
+                                <div class="heading-border"></div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/artical-hafez.jpg") }}" alt="">
+                              </div>
+                              <div class="col-md-6">
+                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
+                                <ul class="list-inline item-details">
+                                    <li>Client:
+                                        <strong>
+                                          <a href="#">Techs Soft</a>
+                                        </strong>
+                                    </li>
+                                    <li>Date:
+                                        <strong>
+                                          <a href="#">April 2018</a>
+                                        </strong>
+                                    </li>
+                                    <li>Service:
+                                        <strong>
+                                          <a href="#">Web Development</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> بستن
                                 </button>
                             </div>
                           </div>

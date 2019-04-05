@@ -10655,9 +10655,70 @@ a.text-dark:focus {
   }
 }
 
+@media (max-width: 767px) {
+  body .container-fluid.p-0 {
+    margin-right: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body .container-fluid.p-0 {
+    margin-right: none !important;
+  }
+
+  #award-box {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  body .container-fluid.p-0 {
+    margin-right: 270px !important;
+  }
+
+  #award-box {
+    padding-left: 22rem;
+    width: 100%;
+  }
+
+  #award-box:before {
+    left: 61.2% !important;
+  }
+}
+
+#awards {
+  direction: ltr;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.list-centered {
+  text-align: right;
+  list-style-position: inside;
+}
+
+.list-display li {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.list-checkmarks {
+  padding-left: 1.5rem;
+}
+
+.list-checkmarks li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.list-checkmarks li:before {
+  font-family: "FontAwesome";
+  content: "\F00C";
+  margin: 0 10px 0 10px;
+  color: #17aa1c;
 }
 
 body {
@@ -10678,6 +10739,10 @@ body .btn-white {
   color: #fff;
 }
 
+body .p {
+  font-family: BYekan !important;
+}
+
 .f-BYekan {
   font-family: BYekan;
 }
@@ -10696,24 +10761,6 @@ h6,
   font-family: BYekan !important;
 }
 
-@media (max-width: 767px) {
-  body .container-fluid.p-0 {
-    margin-right: none !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  body .container-fluid.p-0 {
-    margin-right: none !important;
-  }
-}
-
-@media (min-width: 992px) {
-  body .container-fluid.p-0 {
-    margin-right: 270px !important;
-  }
-}
-
 .col-md-1,
 .col-md-2,
 .col-md-3,
@@ -10727,5 +10774,9 @@ h6,
 .col-md-11,
 .col-md-12 {
   float: none !important;
+}
+
+.btn-green.filter-b {
+  border: 1px solid #007bff;
 }
 
