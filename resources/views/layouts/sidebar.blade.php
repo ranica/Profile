@@ -24,7 +24,7 @@
                     <a class="nav-link js-scroll-trigger" href="#portfolio"> کتب و مقالات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#skills">مهارت ها</a>
+                    <a class="nav-link js-scroll-trigger" href="#skills">کارهای اجرایی</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#awards">افتخارات</a>

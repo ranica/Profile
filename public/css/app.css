@@ -10739,7 +10739,8 @@ body .btn-white {
   color: #fff;
 }
 
-body .p {
+body .p,
+body .skill-item p {
   font-family: BYekan !important;
 }
 

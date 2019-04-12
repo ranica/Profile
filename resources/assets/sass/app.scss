@@ -83,8 +83,9 @@ body{
         background-color: #2196f3;
         color: #fff;
     }
-    .p {
-    font-family: BYekan !important;
+    .p,
+    .skill-item p {
+        font-family: BYekan !important;
     }
 }
 .f-BYekan{
@@ -115,7 +116,6 @@ h1, h2, h3, h4, h5, h6,
 .btn-green.filter-b{
     border: 1px solid #007bff;
 }
-
 
 
 

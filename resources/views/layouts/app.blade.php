@@ -43,36 +43,36 @@
     <!--====================================================
                         SKILLS
     ======================================================-->
-      <section class=" d-flex flex-column" id="skills">
+      <section class=" d-flex flex-column " id="skills">
          <div class="p-lg-5 p-3 skill-cover">
-          <h3 class="text-center text-white">Coding Skills</h3>
+          <h3 class="text-center text-white">کارهای اجرایی</h3>
           <div class="row text-center my-auto ">
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
-                      <i class="fa fa-html5 fa-5x"></i>
-                      <h2><span class="counter"> 84 </span><span>%</span></h2>
-                      <p>HTML5</p>
+                      <i class="fa fa-book fa-5x"></i>
+                      <h2><span class="counter"> 7  </span><span>مورد</span></h2>
+                      <p>ویراستاری کتاب</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
-                      <i class="fa fa-css3 fa-5x"></i>
-                      <h2><span class="counter"> 95 </span><span>%</span></h2>
-                      <p>CSS3</p>
+                      <i class="fa fa-microphone fa-5x"></i>
+                      <h2><span class="counter"> 17 </span><span>مورد</span></h2>
+                      <p>سخنرانی های تخصصی</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
-                      <i class="fa fa-code fa-5x"></i>
-                      <h2><span class="counter"> 65 </span><span>%</span></h2>
-                      <p>JQuery</p>
+                      <i class="fa fa-graduation-cap fa-5x"></i>
+                      <h2><span class="counter"> 43 </span><span>مورد</span></h2>
+                      <p>راهنمای پایان نامه</p>
                   </div>
               </div>
               <div class="col-md-3 col-sm-6">
                   <div class="skill-item">
-                      <i class="fa fa-globe fa-5x"></i>
-                      <h2><span class="counter"> 89 </span><span>%</span></h2>
-                      <p>PHP</p>
+                      <i class="fa fa-comments fa-5x"></i>
+                      <h2><span class="counter"> 40 </span><span>مورد</span></h2>
+                      <p>مشاوره پایان نامه</p>
                   </div>
               </div>
           </div>
@@ -103,224 +103,25 @@
 <!--====================================================
                     PORTFOLIO MODALS
 ======================================================-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
-      <div class="modal-dialog" role="document">
-          <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl"></div>
-                  </div>
-              </div>
-              <div class="container">
-                  <div class="row">
-                          <div class="modal-body">
-                              <div class="title-bar">
-                                <div class="col-md-12">
-                                  <h2 class="text-center">چشمه آفتاب</h2>
-                                  <div class="heading-border"></div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-6">
-                                  <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/book-cheshmeh.jpg") }}" alt="">
-                                </div>
-                                <div class="col-md-6">
-                                  <p>
-                                    مؤلفان: حمید طاهری، وحید مبارک
-                                    ناشر: سایه گستر
-                                      زبان: فارسی
-                                        رده‌بندی دیویی: 8fa0.8
-                                        سال چاپ: 1389
-                                        نوبت چاپ: 3
-                                        تیراژ: 1500 نسخه
-                                        تعداد صفحات: 416
-                                        قطع و نوع جلد: وزیری (شومیز)
-                                        کد کتاب در گیسوم:</p>
-                                  <ul class="list-inline item-details">
-                                      <li>گردآورنده::
-                                          <strong>
-                                            <a href="#">Techs Soft</a>
-                                          </strong>
-                                      </li>
-                                      <li>تاریخ:
-                                          <strong>
-                                            <a href="#">1397/12/22</a>
-                                          </strong>
-                                      </li>
-                                      <li>Service:
-                                          <strong>
-                                            <a href="#">Web Development</a>
-                                          </strong>
-                                      </li>
-                                  </ul>
-                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                      <i class="fa fa-times"></i> بستن
-                                  </button>
-                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                      <i class="fa fa-times"></i> دانلود
-                                  </button>
-                              </div>
-                            </div>
-                          </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">گلبانگ سربلندی</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/book-golbang.jpg") }}" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> بستن
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">تاملی در معنی ابیات دشوار سنایی</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/arttical-sanaei.jpg") }}" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> بستن
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">تاملی در معنی ابیات دشوار سنایی</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="{{ asset("theme/img/portfolio/artical-hafez.jpg") }}" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> بستن
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
+    @include('books.cheshmeye_aftab')
+    @include('books.golbang')
+    @include('books.belaghat')
+    @include('books.hadigheh')
+    @include('books.farayand')
 
+    @include('articals.tebyen')
+    @include('articals.shere_sepid')
+    @include('articals.ieham')
+    @include('articals.jastar')
+    @include('articals.dareeda')
+    @include('articals.soal')
+    @include('articals.tasvir_kheyal')
+    @include('articals.naghde_sanaei')
+    @include('articals.fele_pishvandi')
+    @include('articals.khosro_shirin')
+
+    
+    
 
     <!-- Global javascript -->
     <script src="{{ asset("theme/js/jquery/jquery.min.js") }}"></script>
